@@ -34,6 +34,14 @@ snippet reutilizable — es markdown puro, sin dependencias.
 ```
 → Devuelve el prompt blindado. Nada se ejecuta hasta que tú lo pegues/apruebes.
 
+## Qué trae adentro (v1.1)
+- **Investigación estructurada** (5 checks antes de escribir: rutas reales por grep,
+  sistemas canónicos, radio de impacto, datos/envs por nombre, riesgo de producción)
+- **Fases por tipo de tarea**: auditoría · feature · fix · migración/datos · diseño/UI
+- **Auto-check de 7 puntos** antes de entregar el prompt
+- **Anti-patrones** explícitos (verbos vagos, sin evidencia, scope mezclado…)
+- **Ejemplo** entrada→salida incluido
+
 ## Filosofía
 - **Anti-burocracia**: si la tarea es trivial, lo dice ("esto no necesita prompt").
 - **Canónico**: el prompt generado usa los sistemas existentes del repo en vez de duplicar.
