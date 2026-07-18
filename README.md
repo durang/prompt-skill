@@ -19,7 +19,7 @@ ejecutar nada. Tú revisas el prompt y decides.
 ```bash
 mkdir -p ~/.claude/skills/prompt
 curl -o ~/.claude/skills/prompt/SKILL.md \
-  https://raw.githubusercontent.com/durang/prompt-skill/main/skills/prompt/SKILL.md
+  https://raw.githubusercontent.com/durang/prompt-skill/master/skills/prompt/SKILL.md
 ```
 O clona el repo y copia `skills/prompt/` a `~/.claude/skills/` (global) o
 `.claude/skills/` (por proyecto).
