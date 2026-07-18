@@ -93,5 +93,16 @@ el dato → deploy); prueba de conexión (insertar fila de prueba → % sube →
 reglas (registro único, no tocar autos); entregable (screenshot antes/después del %);
 cierre "¿Lo ejecuto?".
 
+## Guardado selectivo (no todo merece archivo)
+El contexto de la conversación se compacta y muere — pero guardar todo es basura.
+Regla: al entregar el prompt, clasifícalo:
+- **REUTILIZABLE** (auditorías periódicas, certificación de cliente nuevo, plantillas de
+  migración/onboarding — cualquier cosa que se volverá a disparar): ofrece guardarlo en
+  `.planning/prompts/AAAA-MM-DD-<slug>.md` del proyecto y guárdalo si Sergio acepta
+  (o si él ya pidió historial). Al re-usarlo después, actualiza los file:line con un
+  grep rápido antes de disparar (el repo cambió desde entonces).
+- **ONE-SHOT** (un fix, un campo, una tarea puntual): no ofrezcas guardar — el valor
+  vive en ejecutarlo, no en archivarlo.
+
 ## Longitud objetivo
 300-600 palabras — blindado pero ejecutable, no burocracia.
